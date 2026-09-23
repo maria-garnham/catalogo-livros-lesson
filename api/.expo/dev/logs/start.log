@@ -1,0 +1,18 @@
+{"_e":"root:init","_t":1789581884533,"format":"v0-jsonl","version":"57.0.24"}
+{"_e":"env:mode","_t":1789581884547,"nodeEnv":"development","babelEnv":"development","mode":"development"}
+{"_e":"env:load","_t":1789581884588,"mode":"development","files":[],"env":{}}
+{"_e":"devserver:start","_t":1789581887914,"mode":"development","web":true,"baseUrl":"","asyncRoutes":false,"routerRoot":"../..\\..\\app","serverComponents":false,"serverActions":false,"serverRendering":false,"apiRoutes":false,"exporting":false}
+{"_e":"metro:config","_t":1789581893019,"serverRoot":"../..\\..","projectRoot":"../..\\..","exporting":false,"flags":{"autolinkingModuleResolution":false,"serverActions":false,"serverComponents":false,"reactCompiler":false,"optimizeGraph":false,"treeshaking":false,"logbox":false}}
+{"_e":"expo:dev-tools-plugin:load","_t":1789581895902,"plugins":[]}
+{"_e":"metro:instantiate","_t":1789581900146,"atlas":false,"workers":13,"host":"::","port":8081}
+{"_e":"metro:bundling:started","_t":1789582249736,"id":"1","platform":"android","environment":null,"entry":"server.js"}
+{"_e":"metro:bundling:progress","_t":1789582249738,"id":"1","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1789582249744,"id":"1","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1789582253535,"id":"1","progress":0.010000000000000002,"total":1,"current":1}
+{"_e":"metro:bundling:progress","_t":1789582253638,"id":"1","progress":0.010000000000000002,"total":3,"current":1}
+{"_e":"metro:bundling:progress","_t":1789582253640,"id":"1","progress":0.04000000000000001,"total":3,"current":2}
+{"_e":"metro:bundling:progress","_t":1789582253740,"id":"1","progress":0.1322314049586777,"total":11,"current":4}
+{"_e":"metro:bundling:progress","_t":1789582253868,"id":"1","progress":0.25,"total":14,"current":7}
+{"_e":"metro:bundling:progress","_t":1789582254905,"id":"1","progress":0.32653061224489793,"total":14,"current":8}
+{"_e":"metro:bundling:progress","_t":1789582255011,"id":"1","progress":0.7901234567901234,"total":18,"current":16}
+{"_e":"metro:bundling:failed","_t":1789582255049,"id":"1","message":"The package at \"node_modules\\express\\lib\\express.js\" attempted to import the Node standard library module \"events\".\nIt failed because the native React runtime does not include the Node standard library.\nLearn more: https://docs.expo.dev/workflow/using-libraries/#using-third-party-libraries\n  14 |\n  15 | var bodyParser = require('body-parser')\n> 16 | var EventEmitter = require('events').EventEmitter;\n     |                             ^\n  17 | var mixin = require('merge-descriptors');\n  18 | var proto = require('./application');\n  19 | var Route = require('./router/route');","importStack":"\u001b[1mImport stack:\u001b[22m\n\u001b[90m\u001b[39m\n\u001b[90m\u001b[90m \u001b[39m\u001b[90mnode_modules\\express\\lib\\express.js\u001b[39m\n\u001b[90m\u001b[90m |\u001b[39m\u001b[90m \u001b[36mimport\u001b[39m\u001b[90m \u001b[32m\"events\"\u001b[39m\u001b[90m\u001b[39m\n\u001b[90m\u001b[39m\n\u001b[90m\u001b[90m \u001b[39m\u001b[90mnode_modules\\express\\index.js\u001b[39m\n\u001b[90m\u001b[90m |\u001b[39m\u001b[90m \u001b[36mimport\u001b[39m\u001b[90m \u001b[32m\"./lib/express\"\u001b[39m\u001b[90m\u001b[39m\n\n\u001b[90m \u001b[39mapp.js\n\u001b[90m |\u001b[39m \u001b[36mimport\u001b[39m \u001b[32m\"express\"\u001b[39m\n\n\u001b[90m \u001b[39mserver.js\n\u001b[90m |\u001b[39m \u001b[36mimport\u001b[39m \u001b[32m\"./app\"\u001b[39m\n\n\u001b[90m \u001b[39m\n\u001b[90m |\u001b[39m \u001b[36mimport\u001b[39m \u001b[32m\"./server\"\u001b[39m\n","filename":null,"targetModuleName":"events","originModulePath":"node_modules\\express\\lib\\express.js"}

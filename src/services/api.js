@@ -2,7 +2,10 @@
 const BASE_URL = "http://10.0.2.2:3000";
 
 export async function buscarLivros() {
-  // TODO: implementar
+  const response = await fetch (`${BASE_URL}/livros`)
+  if(!response.ok){
+    throw new Error(`Erro ${response.status}: falha ao buscar livros`)
+  }
 }
 
 export async function buscarLivroPorId(id) {
